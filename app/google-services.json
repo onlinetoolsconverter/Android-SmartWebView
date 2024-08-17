@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "643340771453",
+    "project_id": "android-web-view-40b1c",
+    "storage_bucket": "android-web-view-40b1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643340771453:android:5b8881f115b8cce1675114",
+        "android_client_info": {
+          "package_name": "mgks.os.swv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4PvaDesJzlEAiF92386ckQ-igYL-S-jk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
