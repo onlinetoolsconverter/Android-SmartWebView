@@ -82,8 +82,10 @@ public class SmartWebView {
 	// to upload any file type using "*/*"; check file type references for more
 	static String ASWV_F_TYPE         = "*/*";
 
-	// admob config
-	static String ASWV_ADMOB          = "ca-app-pub-2536339933539557~7879054351";		// your unique publishers ID
+	// admob config ca-app-pub-3940256099942544/9214589741
+	//static String ASWV_ADMOB          = "ca-app-pub-2536339933539557~7879054351";	//imtiaj id	// your unique publishers ID
+
+	static String ASWV_ADMOB = "ca-app-pub-2536339933539557~7879054351"; // https://developers.google.com/admob/android/test-ads
 
 	// rating config
 	static int ASWR_DAYS      = 3;            // after how many days of usage would you like to show the dialog
