@@ -64,7 +64,7 @@ public class SmartWebView {
 	static int ASWV_LAYOUT            = 0;            // default=0; for clear fullscreen layout, and =1 for drawer layout
 
 	// URL configs
-	static String ASWV_URL_ONLINE	  = "https://videos.pornstar.monster/";	// if online URL is not provided, offline URL will be loaded by default
+	static String ASWV_URL_ONLINE	  = "https://bangla-news.github.io/";	// if online URL is not provided, offline URL will be loaded by default
 	static String ASWV_URL_OFFLINE	  = "file:///android_asset/offline.html";	// if ASWP_OFFLINE is set false or ASWV_URL_ONLINE is empty
 	static String ASWV_URL            = ASWP_OFFLINE || (ASWV_URL_ONLINE == null || ASWV_URL_ONLINE.length() == 0) ? ASWV_URL_OFFLINE : ASWV_URL_ONLINE;	// complete URL of your website or offline webpage "file:///android_asset/offline.html";
 	static String ASWV_SEARCH         = "https://www.google.com/search?q=";         // search query will start by the end of the present string
@@ -83,7 +83,7 @@ public class SmartWebView {
 	static String ASWV_F_TYPE         = "*/*";
 
 	// admob config
-	static String ASWV_ADMOB          = "";		// your unique publishers ID
+	static String ASWV_ADMOB          = "ca-app-pub-2536339933539557~7879054351";		// your unique publishers ID
 
 	// rating config
 	static int ASWR_DAYS      = 3;            // after how many days of usage would you like to show the dialog
