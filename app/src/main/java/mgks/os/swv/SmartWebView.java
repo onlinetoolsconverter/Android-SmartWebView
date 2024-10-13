@@ -64,7 +64,7 @@ public class SmartWebView {
 	static int ASWV_LAYOUT            = 0;            // default=0; for clear fullscreen layout, and =1 for drawer layout
 
 	// URL configs
-	static String ASWV_URL_ONLINE	  = "https://www.fitastik.com/";	// if online URL is not provided, offline URL will be loaded by default
+	static String ASWV_URL_ONLINE	  = "https://aidartists.com/";	// if online URL is not provided, offline URL will be loaded by default
 	static String ASWV_URL_OFFLINE	  = "file:///android_asset/offline.html";	// if ASWP_OFFLINE is set false or ASWV_URL_ONLINE is empty
 	static String ASWV_URL            = ASWP_OFFLINE || (ASWV_URL_ONLINE == null || ASWV_URL_ONLINE.length() == 0) ? ASWV_URL_OFFLINE : ASWV_URL_ONLINE;	// complete URL of your website or offline webpage "file:///android_asset/offline.html";
 	static String ASWV_SEARCH         = "https://www.google.com/search?q=";         // search query will start by the end of the present string
